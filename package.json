@@ -34,13 +34,13 @@
         "url": "https://github.com/UNOMP/node-merged-pool.git"
     },
     "dependencies": {
-        "unomp-multi-hashing": "^1.0.1",
-        "bn.js": "^5.1.3",
-        "base58-native": "^2.0.0",
-        "async": "^3.2.4",
-        "redis": "^3.1.2"
+        "unomp-multi-hashing": "git+https://github.com/Fankouzu/node-multi-hashing.git",
+        "bignum": "*",
+        "base58-native": "*",
+        "async": "*",
+        "redis": "*"
     },
     "engines": {
-        "node": ">=12.0.0"
+        "node": ">=0.10"
     }
 }
